@@ -24,6 +24,6 @@ if (!countryName){
             `;
         })
         .catch(error => {
-            countryInfoDiv.innerHTML = `<p style="color: red;">${error.message}</p>`;
+             countryInfoDiv.innerHTML = "<h2>error - not found</h2>";
         });
 });
